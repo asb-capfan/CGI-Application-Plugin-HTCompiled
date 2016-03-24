@@ -15,7 +15,7 @@ CGI::Application::Plugin::HTCompiled - Integrate with HTML::Template::Compiled
 
 =cut
 
-$CGI::Application::Plugin::HTCompiled::VERSION = '1.05';
+$CGI::Application::Plugin::HTCompiled::VERSION = '1.06';
 
 =head1 SYNOPSIS
 

@@ -1,5 +1,9 @@
 Revision history for CGI-Application-Plugin-HTCompiled
 
+1.06
+    - increased minimum Perl version to Perl 5.8, as does HTML::Template::Compiled
+    - moved POD tests to xt folder (dedicated author tests folder, run "prove t xt" for all tests)
+
 1.05
     - changed to way of using UNIVERSAL::isa, as "UNIVERSAL->import is
     deprecated and will be removed in a future perl"
