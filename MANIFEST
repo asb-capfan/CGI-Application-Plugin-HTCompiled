@@ -12,3 +12,4 @@ xt/98-pod-coverage.t
 xt/99-pod.t
 test/templates/test.tmpl
 test/CGIAPP_TestApp2.pm
+META.json
