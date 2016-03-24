@@ -1,3 +1,4 @@
+use 5.008001;
 use strict;
 use warnings;
 use Module::Build;
@@ -5,10 +6,11 @@ use Module::Build;
 my $builder = Module::Build->new(
     module_name         => 'CGI::Application::Plugin::HTCompiled',
     license             => 'perl',
-    dist_author         => 'Alexander Becker<c a p f a n @ g m x . d e>',
+    dist_author         => 'Alexander Becker <asb@cpan.org>',
     dist_version_from   => 'lib/CGI/Application/Plugin/HTCompiled.pm',
 	configure_requires => { 'Module::Build' => 0.36 },
     requires => {
+		'perl'                  	  => '5.008001', # cf. HTML::Template::Compiled
 		'ExtUtils::Install'			  => '1.52',
         'Test::More'                  => 0,
         'Test::Exception'             => 0,

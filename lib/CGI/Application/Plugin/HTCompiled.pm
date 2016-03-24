@@ -2,7 +2,7 @@ package CGI::Application::Plugin::HTCompiled;
 
 use CGI::Application 4.31;
 
-use 5.006;
+use 5.008;
 
 use strict;
 use warnings;
@@ -357,7 +357,7 @@ Create an instance and run.
 
 =head1 AUTHOR
 
-Alexander Becker C<< c a p f a n .at. g m x .dot. d e >>, 
+Alexander Becker C<< <asb@cpan.org> >>, 
 Mark Stosberg C<< <mark@summersault.com> >>
 ...but largely modeled on HTDot plugin by Jason A. Crome. 
 
