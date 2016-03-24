@@ -8,7 +8,7 @@ README
 t/00-load.t
 t/01-load_tmpl.t
 t/02-extend_load_tmpl.t
-t/pod-coverage.t
-t/pod.t
+xt/98-pod-coverage.t
+xt/99-pod.t
 test/templates/test.tmpl
 test/CGIAPP_TestApp2.pm
