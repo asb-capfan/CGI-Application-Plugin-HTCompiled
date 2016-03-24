@@ -224,7 +224,7 @@ EXAMPLE
             $app->run();
 
 AUTHOR
-    Alexander Becker "c a p f a n .at. g m x .dot. d e", Mark Stosberg
+    Alexander Becker "asb@cpan.org", Mark Stosberg
     "<mark@summersault.com>" ...but largely modeled on HTDot plugin by Jason
     A. Crome.
 
